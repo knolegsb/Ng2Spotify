@@ -19,6 +19,10 @@ const appRoutes: Routes = [
     {
         path: 'artist/:id',
         component: ArtistComponent
+    },
+    {
+        path: 'album/:id',
+        component: AlbumComponent
     }
 ];
 
